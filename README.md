@@ -2,5 +2,5 @@
 
 JavaScript Projects with interesting mini Games
 
-Deployed On Netlify... Enjoy With your Friends🎉🥳
+Deployed On Netlify... Enjoy With your Friends🎉🥳<br>
 https://psworld-gaming-hub.netlify.app/

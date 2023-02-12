@@ -49,7 +49,7 @@ btnRoll.addEventListener('click', function () {
     // Random Dice Number
     let dice = Math.trunc(Math.random() * 6) + 1;
     console.log(dice);
-    diceEl.src = `./src/img/dice-${dice}.png`;
+    diceEl.src = `./../img/dice-${dice}.png`;
     diceEl.classList.remove('hidden');
 
     // When Dice shows 1

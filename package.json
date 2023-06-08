@@ -1,15 +1,15 @@
 {
-  "name": "psworld",
+  "name": "PSWorld-gaming-hub",
   "version": "1.0.0",
   "description": "",
   "default": "index.html",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html --no-scope-hoist --dist-dir ./dist"
+    "start": "snowpack dev",
+    "build": "snowpack build "
   },
-  "author": "",
+  "author": "sypanchal1810",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.8.3"
+    "snowpack": "^3.8.8"
   }
 }

@@ -4,34 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="src/img/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="src/img/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="src/img/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="src/img/favicon/site.webmanifest" />
+
     <link rel="stylesheet" href="style.css" />
     <title>PSWorld | The Gaming Hub</title>
-    <link rel="icon" href="https://images.pexels.com/photos/596750/pexels-photo-596750.jpeg?auto=compress&cs=tinysrgb&w=600" type="image/x-icon" />
   </head>
   <body>
-    <nav class="navigationWrapper">
-      <div class="logoWrapper">
-        <h1><a class="logo" href="./index.html">PSWorld</a></h1>
+    <nav class="nav">
+      <div class="nav__logo">
+        <h1><a class="nav__logo--img" href="./index.html">PSWorld</a></h1>
       </div>
-      <ul class="navigation">
-        <li class="parent">
-          <a class="link hoverable" href="./index.html">Home</a>
+      <ul class="nav__menu">
+        <li class="nav__item">
+          <a class="nav__link" href="./index.html">Home</a>
         </li>
-        <li class="parent">
-          <a class="link hoverable" href="#">About</a>
+        <li class="nav__item">
+          <a class="nav__link" href="https://github.com/sypanchal1810/psworld-v1#readme">About</a>
         </li>
-        <li class="parent">
-          <a class="link hoverable" href="#">Contact</a>
+        <li class="nav__item">
+          <a class="nav__link" href="https://www.linkedin.com/in/sypanchal1810/">Contact</a>
         </li>
       </ul>
     </nav>
 
-    <div class="cards">
+    <div class="cards--container">
+      <!--  -->
       <div class="card card1">
-        <div class="container">
+        <div class="card__img">
           <img src="./src/img/dice.jpg" alt="Dice-iiyy" />
         </div>
-        <div class="details">
+        <div class="card__details">
           <h3>Dice-iiyy</h3>
           <div class="button bouncy bouncy1">
             <a href="./src/dice-iiyy.html">Play Now</a>
@@ -40,10 +46,10 @@
       </div>
 
       <div class="card card2">
-        <div class="container">
+        <div class="card__img">
           <img src="./src/img/question-mark.jpg" alt="Guess The Number" />
         </div>
-        <div class="details">
+        <div class="card__details">
           <h3>Guess The Number</h3>
           <div class="button bouncy bouncy2">
             <a href="./src/guess-the-number.html">Play Now</a>
@@ -52,13 +58,25 @@
       </div>
 
       <div class="card card3">
-        <div class="container">
+        <div class="card__img">
           <img src="./src/img/snake.jpg" alt="The Snake Game" />
         </div>
-        <div class="details">
+        <div class="card__details">
           <h3>The Snake Game</h3>
           <div class="button bouncy bouncy1">
             <a href="./src/snake-game.html">Play Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card1">
+        <div class="card__img">
+          <img src="./src/img/pong-game.jpg" alt="Pong Game" />
+        </div>
+        <div class="card__details">
+          <h3>The Pong Game</h3>
+          <div class="button bouncy bouncy2">
+            <a href="#">Coming Soon...</a>
           </div>
         </div>
       </div>

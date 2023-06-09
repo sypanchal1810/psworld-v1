@@ -1,8 +1,7 @@
 {
   "name": "PSWorld-gaming-hub",
   "version": "1.0.0",
-  "description": "",
-  "default": "index.html",
+  "description": "Collection of exciting and engaging mini desktop games developed using JavaScript",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build "
